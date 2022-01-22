@@ -55,7 +55,7 @@
 
 ##### Connexion à la base de donnée :  dans le fichier .env , ajouter cette ligne à la place de celle initiale :
 ```DATABASE_URL="mysql://user:mdp@127.0.0.1:3306/nomdelabd?serverVersion=mariadb-10.4.21"``` 
-#####(version de mariadb en 10.4.21 chez nous)
+##### (version de mariadb en 10.4.21 chez nous)
 
 
 ##### Créer la Base de donnée :   ```php bin/console doctrine:database:create   ```
