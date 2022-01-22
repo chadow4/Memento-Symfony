@@ -37,15 +37,15 @@
 
 ## Formulaires 
 
-###### Créer un formulaire :  ```php bin/console make:form```
+##### Créer un formulaire :  ```php bin/console make:form```
 
-###### Par défaut, sur la partie twig, lors de la création des formulaires, les inputs et les labels seront groupés :  
+##### Par défaut, sur la partie twig, lors de la création des formulaires, les inputs et les labels seront groupés :  
 
-###### - soit sous la forme complète (tout le formulaire en un) : exemple : ```{{ form_widget(form) }}``` 
+##### - soit sous la forme complète (tout le formulaire en un) : exemple : ```{{ form_widget(form) }}``` 
 
-###### - soit sous forme de "row" (input + label groupé) exemple :  ```{{ form_row(registrationForm.email) }}```
+##### - soit sous forme de "row" (input + label groupé) exemple :  ```{{ form_row(registrationForm.email) }}```
 
-###### Si vous souhaitez appliquer une class sur l'input et/ou modifier le label, vous pouvez décomposer chaque élément en deux partie comme ceci : 
+##### Si vous souhaitez appliquer une class sur l'input et/ou modifier le label, vous pouvez décomposer chaque élément en deux partie comme ceci : 
 
  ```{{ form_label(registrationForm.email, 'Adresse Email') }}``` ==> choix du label 
 
@@ -168,9 +168,9 @@ relancer npm : ```npm install```
 
 ##### Récupérer un attribut user de "session" : 
 
-###### exemple : ``{{app.user.id }}``
+##### exemple : ``{{app.user.id }}``
 
 ##### Palier les problèmes de route en surcouche du type ```/user/user/1``` :
 
-###### exemple : ```href="../user/id```
+##### exemple : ```href="../user/id```
   
