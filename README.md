@@ -161,7 +161,7 @@ relancer npm : ```npm install```
 
 - Dans le fichier `webpack.config.js`, décommenter la ligne 59 (environ) : ```.enableSassLoader()```
 
-- Pour compiler le javascript et le scss, utiliser la commande suivante : ```npm run dev```
+- Pour compiler le javascript et le scss, utiliser la commande suivante : ```npm run dev``` ou ```npm run watch``` (plus cool car besoin de la faire qu'une fois)
 
 
 ## Autres : 
