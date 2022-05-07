@@ -24,7 +24,7 @@
 
 
 
-##### Lancer Symfony en localhost : ```symfony server:start```
+##### Lancer Symfony en localhost : ```symfony server:start``` ou ```php -S localhost:8000 -t public```
 
 ## Controller, Views & Entity
 
