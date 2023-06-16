@@ -16,7 +16,7 @@
 
 ## Créer un nouveau projet : 
 
-##### Nouveau projet : ```composer create-project symfony/website-skeleton nomduprojet ``` 
+##### Nouveau projet : ```composer create-project symfony/skeleton:"6.3.*" my_project_directory ``` 
 
 
 
