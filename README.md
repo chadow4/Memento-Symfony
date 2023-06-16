@@ -4,7 +4,7 @@
 
 <p align="center"> MEMENTO</p>
 
-<p align="center"><img src="https://executive-education.epitech.eu/wp-content/uploads/2021/03/symfony.png" width="250px"></p>
+<p align="center"><img src="https://www.a5sys.com/wp-content/uploads/2021/10/symfony_logo_vertical.png" width="250px"></p>
 
 
 
@@ -16,7 +16,7 @@
 
 ## Créer un nouveau projet : 
 
-##### Nouveau projet : ```composer create-project symfony/website-skeleton nomduprojet ^5.4.0``` Version du projet : 5.0.4 LTS
+##### Nouveau projet : ```composer create-project symfony/website-skeleton nomduprojet ``` 
 
 
 
@@ -170,7 +170,4 @@ relancer npm : ```npm install```
 
 ##### exemple : ``{{app.user.id }}``
 
-##### Palier les problèmes de route en surcouche du type ```/user/user/1``` :
 
-##### exemple : ```href="../user/id```
-  
